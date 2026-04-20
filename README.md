@@ -14,6 +14,8 @@ If you prefer the command-line or another editor, run the following in the termi
 
 In the terminal, run `docker compose up --build` in your project root and the environments will be set up for you automatically.
 
+To setup the database tables, change to the `backend` folder and run `alembic upgrade head`. If it errors, run `source venv/bin/activate` and try again.
+
 View the interactive docs for the api at http://localhost:8000/docs
 
 ## Task list
