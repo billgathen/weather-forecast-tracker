@@ -2,14 +2,30 @@
 
 Dockerized application in Python that tracks the variation in weather temperature forecasts over time for a given location using the weather.gov API and a local data store.
 
+## Instructions
+
+You'll need [git](https://git-scm.com/) and [Docker](https://docs.docker.com/desktop/) installed on your local system.
+
+If you're working VSCode, you can fork this project on GitHub, open a fresh VSCode window, and select `Clone Repository`. Your fork should be first in the list.
+
+If you prefer the command-line or another editor, run the following in the terminal in the parent folder of where you'd like your code
+
+`git clone https://github.com/billgathen/weather-forecast-tracker.git`
+
+In the terminal, run `docker compose up --build` and the environments will be set up for you automatically.
+
+View the interactive docs for the app at http://localhost:8000/docs
+
 ## Task list
 
-- Docker compose (python + postgres)
-- Dockerfile python
-- .env.example + .env (already in .gitignore)
-- local config (venv, vscode settings)
-- requirements.txt (fastapi, uvicorn, sqlalchemy, alembic, pydantic, apscheduler)
-- /health, /dbhealth endpoints
+- DONE Docker compose (python + postgres)
+- DONE Dockerfile python
+- DONE .env.example + .env (already in .gitignore)
+- DONE local config (venv, vscode settings)
+- DONE requirements.txt (fastapi, uvicorn, sqlalchemy, alembic, pydantic, apscheduler, dotenv)
+- DONE initialize main.py
+- DONE /health
+- /dbhealth endpoints
 - models (location, forecast)
 - db integration (sqlalchemy, alembic)
 - schemas (locations, forecasts)
@@ -38,3 +54,7 @@ Dockerized application in Python that tracks the variation in weather temperatur
 - forecasted_low
 - created_at
 - updated_at
+
+```
+
+```
