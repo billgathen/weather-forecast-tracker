@@ -28,9 +28,15 @@ View the interactive docs for the app at http://localhost:8000/docs
 - DONE /dbhealth endpoint
 - DONE db integration (sqlalchemy, alembic)
 - DONE models (location, forecast)
-- schemas (locations, forecasts)
-- routers (POST location, GET forecast)
-- api integration (get closest station for location, get latest forecast from station (high/low temp by hour for next 72 hours))
+- schemas
+  - DONE location
+  - forecasts
+- routers
+  - DONE POST location
+  - GET forecast
+- api integration
+  - get closest station for location
+  - get latest forecast from station (high/low temp by hour for next 72 hours)
 - job (every x minutes, refresh forecasts for next 72 hours for each location)
 
 ## Possible db schema
