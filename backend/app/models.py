@@ -14,7 +14,7 @@ class Location(Base):
   id: Mapped[int] = mapped_column(primary_key=True)
   lat: Mapped[float] = mapped_column(Float)
   long: Mapped[float] = mapped_column(Float)
-  station_url: Mapped[str] = mapped_column(String)
+  hourly_forecast_url: Mapped[str] = mapped_column(String)
   created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())
   updated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
 
@@ -28,7 +28,6 @@ class Forecast(Base):
   location_id: Mapped[int] = mapped_column(ForeignKey("locations.id"))
   day: Mapped[date] = mapped_column(Date)
   hour: Mapped[int] = mapped_column(Integer)
-  high: Mapped[int] = mapped_column(Integer)
-  low: Mapped[int] = mapped_column(Integer)
+  temp: Mapped[int] = mapped_column(Integer)
   created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())
   updated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
