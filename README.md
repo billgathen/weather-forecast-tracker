@@ -6,7 +6,7 @@ Dockerized application in Python that tracks the variation in weather temperatur
 
 You'll need [git](https://git-scm.com/) and [Docker](https://docs.docker.com/desktop/) installed on your local system.
 
-If you're working VSCode, you can fork this project on GitHub, open a fresh VSCode window, and select `Clone Repository`. Your fork should be first in the list.
+If you're using VSCode, you can fork this project on GitHub, open a fresh VSCode window, and select `Clone Repository` in the explorer sidebar. Your fork should be first in the list.
 
 If you prefer the command-line or another editor, run the following in the terminal in the parent folder of where you'd like your code
 
