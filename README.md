@@ -24,10 +24,10 @@ View the interactive docs for the app at http://localhost:8000/docs
 - DONE local config (venv, vscode settings)
 - DONE requirements.txt (fastapi, uvicorn, sqlalchemy, psycopg2-binary, alembic, pydantic, apscheduler, dotenv)
 - DONE initialize main.py
-- DONE /health
-- /dbhealth endpoints
-- models (location, forecast)
-- db integration (sqlalchemy, alembic)
+- DONE /health endpoint
+- DONE /dbhealth endpoint
+- DONE db integration (sqlalchemy, alembic)
+- DONE models (location, forecast)
 - schemas (locations, forecasts)
 - routers (POST location, GET forecast)
 - api integration (get closest station for location, get latest forecast from station (high/low temp by hour for next 72 hours))
