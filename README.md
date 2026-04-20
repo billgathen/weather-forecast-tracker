@@ -36,5 +36,5 @@ View the interactive docs for the app at http://localhost:8000/docs
   - GET forecast
 - api integration
   - DONE get forecast url for location
-  - get latest forecast from station (high/low temp by hour for next 72 hours)
+  - get latest forecast from station (predicted temp by hour for next 72 hours)
 - job (every x minutes, refresh forecasts for next 72 hours for each location)
