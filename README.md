@@ -12,9 +12,9 @@ If you prefer the command-line or another editor, run the following in the termi
 
 `git clone https://github.com/billgathen/weather-forecast-tracker.git`
 
-In the terminal, run `docker compose up --build` and the environments will be set up for you automatically.
+In the terminal, run `docker compose up --build` in your project root and the environments will be set up for you automatically.
 
-View the interactive docs for the app at http://localhost:8000/docs
+View the interactive docs for the api at http://localhost:8000/docs
 
 ## Task list
 
@@ -37,4 +37,4 @@ View the interactive docs for the app at http://localhost:8000/docs
 - api integration
   - DONE get forecast url for location
   - get latest forecast from station (predicted temp by hour for next 72 hours)
-- job (every x minutes, refresh forecasts for next 72 hours for each location)
+- job (every x minutes, refresh forecasts for each location)
