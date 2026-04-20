@@ -22,7 +22,7 @@ View the interactive docs for the app at http://localhost:8000/docs
 - DONE Dockerfile python
 - DONE .env.example + .env (already in .gitignore)
 - DONE local config (venv, vscode settings)
-- DONE requirements.txt (fastapi, uvicorn, sqlalchemy, alembic, pydantic, apscheduler, dotenv)
+- DONE requirements.txt (fastapi, uvicorn, sqlalchemy, psycopg2-binary, alembic, pydantic, apscheduler, dotenv)
 - DONE initialize main.py
 - DONE /health
 - /dbhealth endpoints
